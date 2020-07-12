@@ -1,5 +1,5 @@
 {
-	"hostname": "SparkMaker",
+	"hostname": "CaptivePortal",
 	"CaptivePortal": {
 		"enabled": true,
 		"timeout": 300,
@@ -11,8 +11,5 @@
 	"Credentials": {
 		"ssid": "pwd",
 		"openNet": ""
-	},
-	"SparkMaker": {
-		"statusRequestInterval": 20
 	}
 }
