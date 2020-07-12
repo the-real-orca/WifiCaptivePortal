@@ -7,10 +7,11 @@
 #include "CaptivePortal.h"
 CaptivePortal captivePortal;
 
-void handleCustom()
+void handleCustom(AsyncWebServerRequest *request)
 {
-	captivePortal.sendFinal(200, "text/plain", "OK");
+	request->send(200, "text/plain", "OK");
 }
+
 
 void setup()
 {
