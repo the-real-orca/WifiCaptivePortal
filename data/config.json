@@ -1,0 +1,18 @@
+{
+	"hostname": "SparkMaker",
+	"CaptivePortal": {
+		"enabled": true,
+		"timeout": 300,
+		"ip": "192.168.4.1",
+		"subnet": "255.255.255.0",
+		"path": "portal.html",
+		"wifiClientConnectionTimeout": 5
+	},
+	"Credentials": {
+		"ssid": "pwd",
+		"openNet": ""
+	},
+	"SparkMaker": {
+		"statusRequestInterval": 20
+	}
+}
